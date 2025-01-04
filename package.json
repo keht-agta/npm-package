@@ -1,0 +1,32 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "keywords": [
+    "game"
+  ],
+  "homepage": "https://github.com/keht-agta/npm-package#readme",
+  "bugs": {
+    "url": "https://github.com/keht-agta/npm-package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keht-agta/npm-package.git"
+  },
+  "license": "ISC",
+  "author": "PradedovAG",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0"
+  }
+}
